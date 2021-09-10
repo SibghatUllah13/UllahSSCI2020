@@ -1,3 +1,7 @@
+[![DOI](https://zenodo.org/badge/404799810.svg)](https://zenodo.org/badge/latestdoi/404799810)
+
+
+
 # UllahSSCI2020
 This repository contain the code for the implementation of the experimental setup in the  paper [[1]](#1). 
 The paper focuses on exploring some of the widely adapted dimensionality reduction techniques for efficiently constructing low dimensional surrogate model.
