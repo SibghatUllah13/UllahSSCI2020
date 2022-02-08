@@ -9,7 +9,7 @@ are originated by performing dimensionality reduction on the original Design of 
 
 # Introduction
 This code is based on our paper, titled [Exploring Dimensionality Reduction Techniques for Efficient Surrogate-Assisted Optimization](https://ieeexplore.ieee.org/abstract/document/9308465) (Ullah, Nguyen, Wang, Menzel, Sendhoff & Bäck, 2020), and can be used to reproduce
-the experimental setup and results mentioned in the paper. The code is produced in Python 3.7.0. The main packages utilized in this code are presented in the next section which deals with technical requirements. 
+the experimental setup and results mentioned in the paper. The code is produced in Python 3.5.0. The main packages utilized in this code are presented in the next section which deals with technical requirements. 
 
 The code is present in five directories, namely  `AES`, `Data Generation`, `KPCA`, `PCA` and `VAES` respectively.
 As the nomenclature suggests, `Data Generation` contains the code for initial sampling plans and Design of Experiment (DoE), whereas
