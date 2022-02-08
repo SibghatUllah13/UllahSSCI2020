@@ -50,10 +50,25 @@ All four required packages can be installed by executing `pip install -r require
 
 In the following, we describe how to reproduce the experimental setup and results mentioned in our paper.
 
+## 1. Generating the initial Data Set
+The first task in the experimental setup deals with the generation of initial data set. This refers to specifying the coordinates
+of the sampling points to observe the functions responses. Since this task is dimensionality dependent (dimensionality describes the number of
+sampling points), we first have to specify the sub-directory which specifies the dimensionality within the `Data Generation` directory.  
+After specifying the correct sub-directory, we have to run the jupyter notebook, titled `Generate_Data_Sets.ipynb` which will generate the training and testing 
+data sets. The testing data set will be later utilized to evaluate the modeling accuracy of the surrogate models. This notebook will also ensure that there 
+are no replicates in the training and testing data sets.
 
+## 2. Specifying the Test Scenario
+After generating the initial data set, we are expected to choose the test scenario based on the combination of dimensionality reduction technique,
+modeling technique, the dimensionality of the search space, and the size of the low dimensional surrogate model (represented in terms of the original dimensionality).
+For this, we must traverse to the correct combination/order by specifying the (sub-)directories along the way.
 
-
-
+## 3. Run the Experiments
+Once we have traversed to the correct combination of sub-directories, we can utilize the files which are named `Hyper-Parameters.ipynb`, `Accuracy.ipynb`,  and `Optimality.ipynb` to perform hyper parameter optimization and assess the low dimensional surrogate models based on modeling accuracy and optimality
+of the final solution.
+Each of these files contains the necessary methods and routines to perform these tasks.
+Note that to run these files, we may have to specify some paths to retrieve the training and testing data sets which were saved in the first step.
+We may also have to specify the paths for the models, if they are saved on the hard disk.
 
 # Citation
 ## Paper Reference
