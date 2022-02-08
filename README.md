@@ -44,8 +44,8 @@ All four required packages can be installed by executing `pip install -r require
 | Package | Description |
 | --- | --- |
 | pyDOE | For sampling plans and Design of Experiment (DoE).  |
-| SciPy |For numerical optimization based on L-BFGS-B algorithm. |
-| PyTorch (cpu) |Surrogate Modeling Toolbox utilized for the implementation of Branin Function. |
+| SciPy | For numerical optimization based on L-BFGS-B algorithm. |
+| PyTorch (cpu) | For implementing AEs and VAEs. |
 | scikit-learn | For constructing the Kriging surrogate, as well as data manipulation. |
 
 In the following, we describe how to reproduce the experimental setup and results mentioned in our paper.
