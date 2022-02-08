@@ -34,11 +34,11 @@ In the following, we describe the technical requirements as well the instruction
 
 # Requiremnts
 In this code, we make use of four python packages (among others), which are presented below in the table.
-In particular, `pyDOE2` can be utilized for sampling plans and Design of Experiment (DoE).
-For the same purpose, `SMT` package may also be used.
-We employ the so-called `Latin Hypercube Sampling` based on the `SMT` package.  
+In particular, `pyDOE` can be utilized for sampling plans and Design of Experiment (DoE).
+We employ the so-called `Latin Hypercube Sampling` based on the `pyDOE` package.  
 For the purpose of numerical optimization in the code, e.g., to maximize the acquisition function, we utilize the famous `L-BFGS` algorithm based on `SciPy` package.
-Finally, the main purpose of the `scikit-learn` package is to construct the Kriging surrogate, as well as data manipulation/wrangling in genera 
+For implementation AEs and VAEs, we utilize the `PyTorch` framework.
+Finally, the main purpose of the `scikit-learn` package is to construct the Kriging surrogate, as well as data manipulation/wrangling in general 
 All four required packages can be installed by executing `pip install -r requirements.txt` from the main directory via the command line.
 
 | Package | Description |
