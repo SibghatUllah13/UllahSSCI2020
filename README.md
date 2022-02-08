@@ -63,7 +63,7 @@ After generating the initial data set, we are expected to choose the test scenar
 modeling technique, the dimensionality of the search space, and the size of the low dimensional surrogate model (represented in terms of the original dimensionality).
 For this, we must traverse to the correct combination/order by specifying the (sub-)directories along the way.
 
-## 3. Run the Experiments
+## 3. Running the Experiments
 Once we have traversed to the correct combination of sub-directories, we can utilize the files which are named `Hyper-Parameters.ipynb`, `Accuracy.ipynb`,  and `Optimality.ipynb` to perform hyper parameter optimization and assess the low dimensional surrogate models based on modeling accuracy and optimality
 of the final solution.
 Each of these files contains the necessary methods and routines to perform these tasks.
