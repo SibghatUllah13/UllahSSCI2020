@@ -8,7 +8,7 @@ These techniques are compared with each other based on the performance of the lo
 are originated by performing dimensionality reduction on the original Design of Experiment (DoE).
 
 # Introduction
-This code is based on our paper, titled [Exploring Dimensionality Reduction Techniques for Efficient Surrogate-Assisted Optimization](https://ieeexplore.ieee.org/abstract/document/9308465) (Ullah, Nguyen, Wang, Menzel, Sendhoff & Bäck, 2021), and can be used to reproduce
+This code is based on our paper, titled [Exploring Dimensionality Reduction Techniques for Efficient Surrogate-Assisted Optimization](https://ieeexplore.ieee.org/abstract/document/9308465) (Ullah, Nguyen, Wang, Menzel, Sendhoff & Bäck, 2020), and can be used to reproduce
 the experimental setup and results mentioned in the paper. The code is produced in Python 3.7.0. The main packages utilized in this code are presented in the next section which deals with technical requirements. 
 
 The code is present in five directories, namely  `AES`, `Data Generation`, `KPCA`, `PCA` and `VAES` respectively.
@@ -55,13 +55,19 @@ In the following, we describe how to reproduce the experimental setup and result
 
 
 
-For this project to run you need:
-* Python >= 3.5
-* PyTorch+cpu 1.5.0
-* PyDOE 0.3.8
-* Scipy 1.5.0
-* Scikit-learn 0.23.0 
+# Citation
+## Paper Reference
+S. Ullah, D. A. Nguyen, H. Wang, S. Menzel, B. Sendhoff and T. Bäck, "Exploring Dimensionality Reduction Techniques for
+Efficient Surrogate-Assisted optimization," 2020 IEEE Symposium Series on Computational Intelligence (SSCI), 2020, pp. 2965-2974.
+## BibTex Reference
+`@inproceedings{ullah2020exploring,`\
+  `title={Exploring dimensionality reduction techniques for efficient surrogate-assisted optimization},`\
+  `author={Ullah, Sibghat and Nguyen, Duc Anh and Wang, Hao and Menzel, Stefan and Sendhoff, Bernhard and B{\"a}ck, Thomas},`\
+  `booktitle={2020 IEEE Symposium Series on Computational Intelligence (SSCI)},`\
+  `pages={2965--2974},`\
+  `year={2020},`\
+  `organization={IEEE}`\
+`}`
 
-## References:
-<a id="1">[1]</a> 
-Ullah, Sibghat, et al. "Exploring dimensionality reduction techniques for efficient surrogate-assisted optimization." 2020 IEEE Symposium Series on Computational Intelligence (SSCI). IEEE, 2020.
+# Acknowledgements
+This research has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement number 766186 (ECOLE).
